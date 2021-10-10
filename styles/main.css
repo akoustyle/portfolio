@@ -284,6 +284,10 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+#logo {
+  width: 60px;
+}
+
 header {
     text-align: center;
     color: #fff;
