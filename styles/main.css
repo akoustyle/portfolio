@@ -44,7 +44,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #17d0d5;
+    color: #ffff;
 }
 
 h1,
@@ -83,13 +83,13 @@ h6 {
 .bleu {
 	background-color: #004AAD;
 	border-bottom: 5px solid #2980B9;
-	text-shadow: 0px -2px #2980B9;
+	/* text-shadow: 0px -2px #2980B9; */
 }
-.action-button:active {
+/* .action-button:active {
 	transform: translate(0px,5px);
   -webkit-transform: translate(0px,5px);
 	border-bottom: 1px solid;
-}
+} */
 
 .btn-primary {
     border-color: #1ee2e7;
