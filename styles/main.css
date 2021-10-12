@@ -549,6 +549,40 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
+@media(max-width:1127px) {
+    #portfolio h3.section-subheading {
+      display: none !important;
+    }
+}
+@media(max-width:1127px) {
+    #services h3.section-subheading {
+      display: none !important;
+    }
+}
+@media(max-width:1127px) {
+    #about h3.section-subheading {
+      display: none !important;
+    }
+}
+@media(max-width:997px) {
+    #about .fas {
+      padding-top: 1rem!important;
+      font-size: 3em!important;
+    }
+}
+@media(min-width:1097px) {
+    #about .fas {
+      padding-top: 3rem!important;
+      font-size: 4em!important;
+    }
+}
+@media(max-width:777px) {
+    #about .fas {
+      padding-top: 1rem!important;
+      font-size: 2em!important;
+    }
+}
+
 
 .timeline {
     position: relative;
@@ -828,7 +862,7 @@ section#contact::-moz-placeholder {
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
