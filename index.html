@@ -10,15 +10,23 @@
   <meta property="og:title" content="O'neal Portfolio - Web developper">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.oneal-portfolio.me/">
-  <meta property="og:image" content="https://www.oneal-portfolio.me/akoustyle.github.io/styles/images/logo.png">
+  <meta property="og:image" content="https://www.oneal-portfolio.me/styles/images/logo.png">
   <meta property="og:description"
     content="Hello I am Oneal, I am a Web developper, catch up if you have something digital in mind!!">
   <meta property="og:site_name" content="Oneal Portfolio - Web app developper">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
-  <link rel="apple-touch-icon" sizes="57x57"
-    href="/styles/images/logo.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/styles/images/logo.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/styles/images/logo.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/styles/images/logo.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/styles/images/logo.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/styles/images/logo.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/styles/images/logo.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/styles/images/logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/styles/images/logo.png">
   <link rel="icon"  type="image/png" sizes="32x32" href="styles/images/logo.png">
+  <link rel="icon"  type="image/png" sizes="96x96" href="styles/images/logo.png">
+  <link rel="icon"  type="image/png" sizes="16x16" href="styles/images/logo.png">
     <link href='https://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
@@ -181,9 +189,9 @@
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal1">
+          <a href="#portfolioModal1" class="portfolio-link">
             <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
+              <div class="portfolio-hover-content" data-toggle="modal" data-target="#portfolioModal1">
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
@@ -530,6 +538,31 @@
       </div>
     </div>
   </div> -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Launch demo modal
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <div class="container">
